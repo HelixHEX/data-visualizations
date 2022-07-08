@@ -82,7 +82,7 @@ const App = () => {
     <>
       <Flex
         className="background"
-        p={20}
+        p={{base: 2, sm: 10, md: 20}}
         w="100%"
         h="auto"
         minH="100vh"
