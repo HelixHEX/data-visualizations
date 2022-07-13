@@ -1,7 +1,13 @@
 import { Flex } from "@chakra-ui/react";
+import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import Nav from "../components/Nav";
 const App = () => {
+  useEffect(() => {
+    if (window.location.pathname === "/") {
+      window.location.href = "/yearly";
+    }
+  }, [])
   return (
     <>
       <Flex w="100%" h="100vh">
