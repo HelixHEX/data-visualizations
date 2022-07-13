@@ -32,7 +32,6 @@ const App = () => {
 
     let newData2 = [] as any;
     jsonFile
-      // .filter((_, index) => index <= 50)
       .forEach((song: any) => {
         if (newData2.length === 0) {
           newData2.push({ totalSongs: 1, year: song.year });

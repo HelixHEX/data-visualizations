@@ -8476,10 +8476,10 @@ react-clientside-effect@^1.2.6:
   dependencies:
     "@babel/runtime" "^7.12.13"
 
-react-d3-bar-graph@^0.1.6:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/react-d3-bar-graph/-/react-d3-bar-graph-0.1.8.tgz#1c3892641cc60eb2180f026e793b137e678b1ebc"
-  integrity sha512-FoFVBS7bLHUorqq8RCILKrutaTwPO97F33PivO2yGdzulacqyF5ot/J+PBNXOczwVeSRx+MdvA6875j4ZMwaXw==
+react-d3-bar-graph@^0.3.6:
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/react-d3-bar-graph/-/react-d3-bar-graph-0.3.6.tgz#6080090d3fe54a5a0b848f2634e842035d0194f0"
+  integrity sha512-iEiK36eYXn11MlIy5rMsOU1/VrdgsMkDvpk3AU2IISQsSYY2oxzFQrDthOOiRUdcU/Q3/21nLsBUkLlbSBCz/w==
 
 react-dev-utils@^12.0.1:
   version "12.0.1"
